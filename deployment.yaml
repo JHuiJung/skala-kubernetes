@@ -3,4 +3,4 @@ spec:
     - name: harbor-cred
   containers:
     - name: app
-      image: harbor.skala-gj.com/skala-gj4/myapp:v1
+      image: harbor.skala-gj.com/skala-gj4/skala-webserver-g133:1.0.1
