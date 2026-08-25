@@ -1,0 +1,6 @@
+spec:
+  imagePullSecrets:
+    - name: harbor-cred
+  containers:
+    - name: app
+      image: harbor.skala-gj.com/skala-gj4/myapp:v1
